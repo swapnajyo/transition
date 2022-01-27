@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-image: url(https://image.shutterstock.com/image-photo/top-view-organized-working-space-260nw-439507486.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+            }
+            ul{
+                list-style: none;
+                display:flex;
+            }
+            ul li{
+                padding:10px;
+                margin-left: 40px;
+                margin-top: 20px;
+                color: yellow;
+            }
+            ul li:hover{
+                     background-color: blue;
+                     color: brown;
+            }
+            #class{
+                font-style: bold;
+                font-size: 30px;
+                margin-left: 550px;
+                margin-top: 300px;
+            }
+            #id1 img{
+                border: 3px solid yellow;
+                height: 200px;
+                width: 200px;
+                 margin-left: 1200px;
+                 position: relative;
+                 bottom: 300px;
+            }
+            img:hover{
+                box-shadow: 10px 10px 50px 30px red;
+            }
+            h3{
+                color: black;
+                margin-left: 1220px;
+                position: relative;
+                bottom: 350px;
+                visibility: hidden;
+            }
+            img:hover+h3{
+                visibility: visible;
+            }
+        </style>
+
+    </head>
+    <body>
+         <div>
+             <ul>
+                 <li>Home</li>
+                 <li>Product</li>
+                 <li>Company</li>
+                 <li>Contact</li>
+             </ul>
+             <div id="class">
+                <a href="https://images.all-free-download.com/images/graphicwebp/peach_tree_peach_tree_blossom_bloom_275038.webp"> click here to get this image</a>
+             </div>
+             <div id="id1">
+                 <img src="https://images.all-free-download.com/images/graphicwebp/peach_tree_peach_tree_blossom_bloom_275038.webp">
+                 <h3>this is flower image</h3>
+             </div>
+            </div>
+   </body>
+</html>
